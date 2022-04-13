@@ -10,7 +10,7 @@
     groups: 
         - panda
         - sudo
-    shell: bin/bash
+    shell: /bin/bash
 
 - name: Authorize user
   authorized_key:
