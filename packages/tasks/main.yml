@@ -1,2 +1,6 @@
----
-# tasks file for packages
+- name: Install packages
+  package:
+    name:
+      - unzip
+      - net-tools
+    state: present
